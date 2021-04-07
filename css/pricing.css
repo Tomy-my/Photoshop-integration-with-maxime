@@ -36,9 +36,10 @@
 	height:120px;
 	text-align:center;
 	border-bottom:solid 5px #FF8B38;
+	font-weight:bolder;
 }
 .price_number{
-	font-size:48px;
+	font-size:64px;
 }
 #pricing_most_pop{
 	text-align:center;
@@ -48,20 +49,29 @@
 	background-color:#FF8B38;
 }
 .pricing_features {
+	display:flex;
+	height:30px;
+	justify-content:space-around;
+	align-items: center;
 	border-bottom:solid 1px #AAABAE;
-	margin-bottom:5px;
 	text-align:center;
 	color:#AAABAE;
 	background-color:white;
 	padding-left:15px;
 	padding-right:15px;
+
 }
 #pricing_features_spe{
+	border-bottom:solid 1px #AAABAE;
 	text-align:center;
 	color:#AAABAE;
 	background-color:white;
-	
+	display:flex;
+	height:30px;
+	justify-content:space-around;
+	align-items: center;
 }
 .comment_price{
 	color: #7A7A7A;
+	font-style:italic;
 }
