@@ -1,0 +1,67 @@
+#princing{
+	background-color:#F5F5F5;
+}
+#princing_title, #pricing_text_comment{
+	text-align:center;
+}
+#pricing_hr{
+	margin-bottom:40px;
+	border:solid 2px #FF8B38;
+	background-color:#FF8B38;
+	width:100px;
+}
+#princing_columns{
+	margin-top:75px;
+	display:flex;
+	flex-direction:rows;
+	justify-content:space-evenly;	
+}
+#pricing_column1,#pricing_column2,#pricing_column3{
+	display:flex;
+	flex-direction:column;
+}
+#pricing_column2{
+	margin-top:-20px;
+}
+.princing_cat{
+	color:#FFFFFF;
+	background-color:#333333;
+	border-bottom:solid 1px #fff;
+	text-align:center;
+	font-weight:bold;
+}
+.price{
+	background-color:#333333;
+	color:#FFFFFF;
+	height:120px;
+	text-align:center;
+	border-bottom:solid 5px #FF8B38;
+}
+.price_number{
+	font-size:48px;
+}
+#pricing_most_pop{
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	border-bottom:solid 5px #FF8B38;
+	background-color:#FF8B38;
+}
+.pricing_features {
+	border-bottom:solid 1px #AAABAE;
+	margin-bottom:5px;
+	text-align:center;
+	color:#AAABAE;
+	background-color:white;
+	padding-left:15px;
+	padding-right:15px;
+}
+#pricing_features_spe{
+	text-align:center;
+	color:#AAABAE;
+	background-color:white;
+	
+}
+.comment_price{
+	color: #7A7A7A;
+}
