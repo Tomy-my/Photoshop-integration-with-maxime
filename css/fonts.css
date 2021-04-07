@@ -1,0 +1,15 @@
+@font-face
+{
+    font-family: 'logo';
+    src: url('../fonts/Rounded_Elegance.ttf')
+}
+
+@font-face{
+    font-family: 'nav';
+    src: url('../fonts/Antipasto-Pro-Regular-trial.ttf')
+}
+
+@font-face{
+    font-family: 'text';
+    src: url('../fonts/Antipasto-Pro-ExtraLight-trial.ttf')
+}
