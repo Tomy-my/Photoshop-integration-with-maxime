@@ -5,7 +5,6 @@
 #princing{
 	background-color:#F5F5F5;
 }
-#princing_title, #pricing_text_comment{
 .global_title{
 	text-align:center;
 	font-size:40px;
@@ -17,16 +16,12 @@
 	margin-top:50px;
 	margin-bottom:100px;
 }
-#pricing_hr{
-	margin-bottom:40px;
-	border:solid 2px #FF8B38;
 .global_hr{
 	margin:auto;
 	margin-top:50px;
 	margin-bottom:30px;
 	border:solid 1.5px #FF8B38;
 	background-color:#FF8B38;
-	width:100px;
 	width:75px;
 	padding:auto;
 }
@@ -34,7 +29,6 @@
 	margin-top:75px;
 	display:flex;
 	flex-direction:rows;
-	justify-content:space-evenly;	
 	justify-content:space-around;	
 	
 }
@@ -54,7 +48,6 @@
 	height:50px;
 	background-color:#333333;
 	border-bottom:solid 1px #fff;
-	text-align:center;
 	font-weight:bold;
 }
 .price{
