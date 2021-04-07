@@ -40,7 +40,7 @@
 #pricing_column2{
 	margin-top:-20px;
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 	#princing_columns{
 		margin-top:75px;
 		display:flex;
@@ -164,4 +164,19 @@
 		margin-left: -100px;
 		
 	}
+}
+#download_tab{
+	color:white;
+	background-image: url("../images/street.png");
+	font-weight:lighter;
+}
+#SAD_hr{
+	background-color:white;
+	border-color:white;
+}
+#SAD_comment{
+	color:white;
+	font-size:22px;
+	-webkit-text-stroke: 1px grey;
+	-webkit-text-stroke: inherit;
 }
