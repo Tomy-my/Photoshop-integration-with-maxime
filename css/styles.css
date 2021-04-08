@@ -80,23 +80,32 @@ span.logo{
   background-color: #101010;
   color:white;
   width:100px;
+  font-size:20px;
+  text-align:center;
+  padding-top:15px;
+  border:solid 1px white;
+  border-bottom:solid 15px black;
+}
+#btn_tab1:hover, #btn_tab2:hover, #btn_tab3:hover{
+  opacity:0.5;
 }
 #tab1_text{
-  margin-top:150px;
-  margin-left:150px;
+  margin-top:-50px;
+  margin-left:125px;
   position:absolute;
 }
 
 #tab2_text{
-  margin-top:150px;
-  margin-left:150px;
+  margin-top:-103px;
+  margin-left:125px;
   position:absolute;
 }
 #tab3_text{
-  margin-top:150px;
-  margin-left:150px;
+  margin-top:-157px;
+  margin-left:125px;
   position:absolute;
 }
+
 
 /*------------------ PRICING ----------------------- */
 .pricing{
