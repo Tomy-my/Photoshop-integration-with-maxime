@@ -93,19 +93,43 @@ span.logo{
   margin-top:-50px;
   margin-left:125px;
   position:absolute;
+  width:500px;
 }
 
 #tab2_text{
   margin-top:-103px;
   margin-left:125px;
   position:absolute;
+  width:500px;
 }
 #tab3_text{
   margin-top:-157px;
   margin-left:125px;
   position:absolute;
+  width:500px;
 }
-
+/*------------------ Sub list section ----------------------- */
+.section_about2 {
+  display:flex;
+  flex-direction: row;
+  align-items: justify;
+  align-content: justify;
+  height: 700px;
+}
+.section_about3{
+  display:flex;
+  flex-direction: row;
+  align-items: justify;
+  align-content: justify;
+}
+.right_about{
+  margin-left:800px;
+  margin-top:-150px;
+  position:absolute;
+}
+.section_about{
+  height: 500px;
+}
 
 /*------------------ PRICING ----------------------- */
 .pricing{
