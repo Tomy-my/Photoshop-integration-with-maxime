@@ -1,272 +1,371 @@
-*{
-	padding:0;
-	margin:0;
+* {
+  padding: 0;
+  margin: 0;
 }
+/* ---------------------------------------- WHY THIS IS AWESOME --------------------------------------------------------------- */
+#bottom{
+	display:flex;
+	direction:row;
+	margin-left:5%;
+}
+.cercle{
+	height: 30px;
+	width: 30px;
+	border:solid 2px #FF8B38;
+	background-color:transparent;
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center; 
+	justify-content: center;
+	margin-left:49%;
+	margin-top:-15px;
+	transform: scale(2);
+}
+.fa-bolt,.fa-keyboard,.fa-lightbulb{
+	color:#FF8B38;
+}
+#section_about4 .global_title{
+	margin-top:20px;
+}
+@media (max-width: 900px) {
+	#bottom{
+		flex-direction:column;
+	}
+	.cercle{
+		margin-left:49%;
+	}
+}
+
 /* -------------------------------------------- PRINCING TAB ------------------------------------------------------------------- */
-#princing{
-	background-color:#F5F5F5;
-	border-top:solid 80px #f5f5f5f5;
+#princing {
+  background-color: #f5f5f5;
+  border-top: solid 80px #f5f5f5f5;
 }
-.global_title{
-	text-align:center;
-	font-size:40px;
+.global_title {
+  text-align: center;
+  font-size: 40px;
 }
-.global_text_comment{
-	text-align:center;
-	color:grey;
-	font-size:18px;
-	margin-top:50px;
-	margin-bottom:100px;
+.global_text_comment {
+  text-align: center;
+  color: grey;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
-.global_hr{
-	margin:auto;
-	margin-top:50px;
-	margin-bottom:30px;
-	border:solid 1.5px #FF8B38;
-	background-color:#FF8B38;
-	width:75px;
-	padding:auto;
+.global_hr {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border: solid 1.5px #ff8b38;
+  background-color: #ff8b38;
+  width: 75px;
+  padding: auto;
 }
-#princing_columns{
-	margin-top:75px;
-	display:flex;
-	flex-direction:rows;
-	justify-content:space-around;	
+#princing_columns {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: rows;
+  justify-content: space-around;
 }
-#pricing_column1,#pricing_column2,#pricing_column3{
-	display:flex;
-	flex-direction:column;
-	width:22%;
+#pricing_column1,
+#pricing_column2,
+#pricing_column3 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
-#pricing_column2{
-	margin-top:-20px;
+#pricing_column2 {
+  margin-top: -20px;
 }
 /* -------------------------------------------- RESPONSIVE PRINCING TAB ------------------------------------------------------------------- */
 
-@media (max-width: 700px) {
-	#princing_columns{
-		margin-top:75px;
-		display:flex;
-		flex-direction:column;
-		justify-content:space-evenly;
-		align-items:center;
-	}
-	#pricing_column1,#pricing_column2,#pricing_column3{
-		display:flex;
-		flex-direction:column;
-		margin-top:50px;
-		width:80%;
-	}
-	#pricing_column2{
-		margin-top:50px;
-	}
+@media (max-width: 900px) {
+  #princing_columns {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #pricing_column1,
+  #pricing_column2,
+  #pricing_column3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 80%;
+  }
+  #pricing_column2 {
+    margin-top: 50px;
+  }
 }
 
-
-.princing_cat{
-	display:flex;
-	justify-content:space-around;
-	align-items: center;
-	color:#FFFFFF;
-	height:50px;
-	background-color:#333333;
-	border-bottom:solid 1px #fff;
-	font-weight:bold;
+.princing_cat {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  height: 50px;
+  background-color: #333333;
+  border-bottom: solid 1px #fff;
+  font-weight: bold;
 }
-.price{
-	border-top:solid 20px #333333;
-	background-color:#333333;
-	color:#FFFFFF;
-	height:120px;
-	text-align:center;
-	border-bottom:solid 5px #FF8B38;
-	font-weight:bolder;
+.price {
+  border-top: solid 20px #333333;
+  background-color: #333333;
+  color: #ffffff;
+  height: 120px;
+  text-align: center;
+  border-bottom: solid 5px #ff8b38;
+  font-weight: bolder;
 }
-.price_number{
-	font-size:64px;
+.price_number {
+  font-size: 64px;
 }
-#pricing_most_pop{
-	text-align:center;
-	color:white;
-	font-weight:bold;
-	border-bottom:solid 5px #FF8B38;
-	background-color:#FF8B38;
+#pricing_most_pop {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border-bottom: solid 5px #ff8b38;
+  background-color: #ff8b38;
 }
 .pricing_features {
-	display:flex;
-	height:30px;
-	justify-content:space-around;
-	align-items: center;
-	border-bottom:solid 1px #AAABAE;
-	text-align:center;
-	color:#AAABAE;
-	background-color:white;
-	padding-left:15px;
-	padding-right:15px;
-
+  display: flex;
+  height: 30px;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid 1px #aaabae;
+  text-align: center;
+  color: #aaabae;
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-#pricing_features_spe{
-	border-bottom:solid 1px #AAABAE;
-	text-align:center;
-	color:#AAABAE;
-	background-color:white;
-	display:flex;
-	height:30px;
-	justify-content:space-around;
-	align-items: center;
+#pricing_features_spe {
+  border-bottom: solid 1px #aaabae;
+  text-align: center;
+  color: #aaabae;
+  background-color: white;
+  display: flex;
+  height: 30px;
+  justify-content: space-around;
+  align-items: center;
 }
-.comment_price{
-	color: #7A7A7A;
-	font-style:italic;
-}
-#testimonials_tab{
-	background-color:#FFF;
-	border-top:solid 80px #FFF;
-	margin-top:80px;
-	margin-bottom:150px;
+.comment_price {
+  color: #7a7a7a;
+  font-style: italic;
 }
 
-#testi_flex_rows{
-	display:flex;
-	justify-content:space-around;
+.testi_bubble_and_text {
+  background: #139ee0;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 3px;
+  width: 250px;
 }
-.testi_name{
-	color:#101010;
-	font-weight:bold;
-	font-size:30px;
-	padding-left: 90px;
-    margin-top: -50px;
+
+.testi_bubble_and_text::after {
+  content: "";
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #139ee0;
+  position: absolute;
 }
-.testi_job{
-	padding-left: 95px;
-	font-weight:lighter;
-	color:grey;
+#testimonials_tab {
+  background-color: #fff;
+  border-top: solid 80px #fff;
+  margin-top: 80px;
+  margin-bottom: 150px;
 }
-.testi_avatar{
-	margin-top: 20px;		
+
+#testi_flex_rows {
+  display: flex;
+  justify-content: space-around;
 }
+.testi_name {
+  color: #101010;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 90px;
+  margin-top: -50px;
+}
+.testi_job {
+  padding-left: 95px;
+  font-weight: lighter;
+  color: grey;
+}
+.testi_avatar {
+  margin-top: 20px;
+}
+#triangle{
+	display : inline-block;
+	height : 0;
+	width : 0;
+	border-top : 20px solid #139ee0;
+	border-right :10px solid transparent;
+	border-left : 10px solid transparent;
+	margin:auto;
+	margin-top:-2px;
+	margin-left:10px;
+   }
+   
 /* -------------------------------------------- RESPONSIVE TESTIMONIALS TAB ------------------------------------------------------------------- */
-@media (max-width: 700px) {
-	#testi_flex_rows{
-		margin-top:-50px;
-		display:flex;
-		flex-direction:column;
-		justify-content:space-around;
-		text-align:center;
+@media (max-width: 850px) {
+	.testi_bubble_and_text{
+		margin:auto;
+		text-align:justify;
 	}
-	.testi_flex_column{
-		margin-top:50px;	
-	}
-	.testi_name{
-		color:#101010;
-		font-weight:bold;
-		font-size:30px;
-		padding-left: 150px;
-		margin-top: -50px;
-	}
-	.testi_avatar{
-		margin-left: -100px;
-		
-	}
+  #testi_flex_rows {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .testi_flex_column {
+    margin-top: 50px;
+  }
+  .testi_name {
+    color: #101010;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 150px;
+    margin-top: -50px;
+  }
+  .testi_avatar {
+    margin-left: -100px;
+  }
+  #triangle{
+	  margin-left:-100px;
+  }
 }
 /* -------------------------------------------- DOWNLOAD TAB ------------------------------------------------------------------- */
 
-#download_tab{
-	color:white;
-	background: url("../images/street.png")no-repeat;
-	font-weight:lighter;
-	 min-height: 100%;
-	min-width: 500px;
-    background-size: cover;
+#download_tab {
+  color: white;
+  background: url("../images/street.png") no-repeat;
+  font-weight: lighter;
+  min-height: 100%;
+  min-width: 500px;
+  background-size: cover;
   /* Set up proportionate scaling */
   width: 100%;
   height: 325px;
-	
 }
-#SAD_hr{
-	background-color:white;
-	border-color:white;
+#SAD_hr {
+  background-color: white;
+  border-color: white;
 }
-#SAD_comment{
-	color:white;
-	font-size:22px;
-	-webkit-text-stroke: 1px grey;
-	-webkit-text-stroke: inherit;
+#SAD_comment {
+  color: white;
+  font-size: 22px;
+  -webkit-text-stroke: 1px grey;
+  -webkit-text-stroke: inherit;
 }
-#download_btn{
-	padding:30px;
-	margin:auto;
-	display: block;
-	margin-top:-75px;
-	color:white;
-	font-size: 20px;
-	text-align: center;
-	background-color: Transparent;
-    background-repeat:no-repeat;
-	border:solid 2px white;
+#download_btn {
+  padding: 30px;
+  margin: auto;
+  display: block;
+  margin-top: -75px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: solid 2px white;
 }
-#download_btn:hover{
-	color:#FF9B51;
-	border:solid 2px black;
-	background-color: rgba(0, 0, 0, 0.35); /* 1.0 - opaque */
-	-webkit-text-stroke: 1px #FF9B51;
-	transform: sclae(1.5);
+#download_btn:hover {
+  color: #ff9b51;
+  border: solid 2px black;
+  background-color: rgba(0, 0, 0, 0.35); /* 1.0 - opaque */
+  -webkit-text-stroke: 1px #ff9b51;
+  transform: sclae(1.5);
 }
 /* -------------------------------------------- CONTACT US TAB ------------------------------------------------------------------- */
 
-.form{
-	display:flex;
-	flex-direction:row;
-	justify-content:space-evenly;
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-.separator{
-	display:flex;
-	flex-direction:column;
+.separator {
+  display: flex;
+  flex-direction: column;
 }
-.form input{
-	margin-bottom:50px;
-	color:black;
-	border:none;
-	border-bottom:solid 1px grey;
-	width:500px;
-	font-size:24px;
+.form input {
+  margin-bottom: 50px;
+  color: black;
+  border: none;
+  border-bottom: solid 1px grey;
+  width: 500px;
+  font-size: 24px;
 }
-textarea{
-	width:300px;
-	height:250px;
+textarea {
+  width: 300px;
+  height: 250px;
 }
-input[type=submit]{
-	background-color:#FF9B51;
-	border:none;
-	color:white;
-	display:block;
-	margin:auto;
-	margin-top:150px;
-	margin-bottom:150px;
-	width:350px;
-	font-size:24px;
+input[type="submit"] {
+  background-color: #ff9b51;
+  border: none;
+  color: white;
+  display: block;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  width: 350px;
+  font-size: 24px;
 }
-input[type=submit]:hover{
-	background-color:white;
-	border:solid 1px black;
-	color:#FF9B51;
+input[type="submit"]:hover {
+  background-color: white;
+  border: solid 1px black;
+  color: #ff9b51;
+}
+#contact {
+  margin-top: 100px;
+}
+@media (max-width: 700px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .form input {
+    margin-bottom: 50px;
+    margin-left: 150px;
+    color: black;
+    border: none;
+    border-bottom: solid 1px grey;
+    width: 300px;
+    font-size: 24px;
+  }
+  textarea {
+    margin-left: 150px;
+  }
 }
 /* -------------------------------------------- FOOTER TAB ------------------------------------------------------------------- */
-#footer{
-	background-color:#101010;
-	display:flex;
-	flex-direction:row;
-	justify-content:space-around;
-	text-align:center;
-	height:75px;
-	border-bottom: solid 125px #101010;
+#footer {
+  margin-top:75px;
+  background-color: #101010;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  text-indent: 30px;
+  height: 75px;
+  border-bottom:solid 25px #101010;
 }
-#logos{
-	margin-top: 50px;
-	transform: scale(3);
+#logos {
+  margin-top: 30px;
+  transform: scale(2);
 }
-#logos p{
-	transform: scale(0.5);
-	color:white;
-	text-align:center;
+#logos p {
+  margin-top:10px;
+  transform: scale(0.4);
+  color: white;
+  text-align: center;
+}
+@media (max-width: 700px) {
+	#footer {
+		text-indent: 5px;
+	}
 }
