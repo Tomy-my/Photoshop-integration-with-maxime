@@ -74,7 +74,31 @@ span.logo{
 .about:hover{
     color: white;
 }
+/*------------------ TAB 1 2 3 ----------------------- */
 
+#btn_tab1, #btn_tab2, #btn_tab3{
+  background-color: #101010;
+  color:white;
+  width:100px;
+}
+#tab1_text{
+  margin-top:150px;
+  margin-left:150px;
+  position:absolute;
+}
+
+#tab2_text{
+  margin-top:150px;
+  margin-left:150px;
+  position:absolute;
+}
+#tab3_text{
+  margin-top:150px;
+  margin-left:150px;
+  position:absolute;
+}
+
+/*------------------ PRICING ----------------------- */
 .pricing{
     font-size: 20px;
     letter-spacing: 1px;
