@@ -167,7 +167,7 @@ span.logo2{
     color: white;
 }
 
-hr{
+.left hr{
     width: 11%;
     height: 2px;
     border: 0px;
@@ -209,6 +209,144 @@ button.download:hover{
 }
 
 .right{
+    height: 450px;
+    width: 450px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    background-color: rgba(255, 255, 255, 1);
+}
+
+form.connexion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.boite_h2{
+    height: 60px;
+
+    background-color: rgb(243, 243, 243);
+    border-bottom: solid 1px rgb(172, 172, 172);
+
+}
+
+.boite_h2 h2{
+    padding-top: 15px;
+
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: rgb(57, 57, 57);
+}
+
+h2 span.free{
+    color: #FF8B38;
+    font-weight: bold;
+}
+
+form.connexion input{
+    width: 80%;
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    border: none;
+
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(134, 134, 134);
+}
+
+form.connexion input:focus{
+    outline: none;
+    border: solid 2px #FF8B38;
+
+    z-index: 2;
+}
+
+input.name{
+    margin-top: 30px;
+}
+
+input.mail{
+    margin-top: 35px;
+}
+
+input.password{
+    margin-top: 35px;
+}
+
+form.connexion hr {
+    width: 382px;
+    margin-top: -32px;
+    margin-left: 30px;
+
+
+    color: rgba(202, 202, 202, 0.712);
+}
+
+button.Get{
+    height: 70px;
+    margin-top: 69px;
+
+    border: none;
+
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+    background-color: #FF8B38 ;
+}
+
+button.Get:hover{
+    background-color: #fd9c57;
+}
+
+button.Get:active{
+    background-color: #FF8B38;
+}
+
+/* ----------------------------------------------Entre section: Social Media---------------------------------------------- */
+
+.social_home{
+    display: flex;
+    justify-content: space-around;
+    height: 125px;
+    border-bottom: solid 2px rgb(134, 134, 134);
+}
+
+.social_left{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.social_left h1{
+    font-size: 25px;
+    color: rgb(57, 57, 57);
+}
+
+.social_left p{
+    margin-top: 8px;
+
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(153, 153, 153);
+}
+
+.social_right{
     margin-top: auto;
     margin-bottom: auto;
 }
+
+.social_right a{
+    margin-right: 100px;
+
+    font-size: 45px;
+    color: rgb(165, 165, 165);
+}
+
+/* ----------------------------------------------Deuxième section: About---------------------------------------------- */
