@@ -74,7 +74,64 @@ span.logo{
 .about:hover{
     color: white;
 }
+/*------------------ TAB 1 2 3 ----------------------- */
 
+#btn_tab1, #btn_tab2, #btn_tab3{
+  background-color: #101010;
+  color:white;
+  width:100px;
+  font-size:20px;
+  text-align:center;
+  padding-top:15px;
+  border:solid 1px white;
+  border-bottom:solid 15px black;
+}
+#btn_tab1:hover, #btn_tab2:hover, #btn_tab3:hover{
+  opacity:0.5;
+}
+#tab1_text{
+  margin-top:-50px;
+  margin-left:125px;
+  position:absolute;
+  width:500px;
+}
+
+#tab2_text{
+  margin-top:-103px;
+  margin-left:125px;
+  position:absolute;
+  width:500px;
+}
+#tab3_text{
+  margin-top:-157px;
+  margin-left:125px;
+  position:absolute;
+  width:500px;
+}
+/*------------------ Sub list section ----------------------- */
+.section_about2 {
+  display:flex;
+  flex-direction: row;
+  align-items: justify;
+  align-content: justify;
+  height: 700px;
+}
+.section_about3{
+  display:flex;
+  flex-direction: row;
+  align-items: justify;
+  align-content: justify;
+}
+.right_about{
+  margin-left:800px;
+  margin-top:-150px;
+  position:absolute;
+}
+.section_about{
+  height: 500px;
+}
+
+/*------------------ PRICING ----------------------- */
 .pricing{
     font-size: 20px;
     letter-spacing: 1px;

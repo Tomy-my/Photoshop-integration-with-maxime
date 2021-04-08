@@ -6,6 +6,9 @@
 		<link rel="stylesheet" href="css/fonts.css" />
 		<link rel="stylesheet" href="css/resolution.css" />
 		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel=”stylesheet” href=”https://ajax.googleapis.com/ajax/libs/jqueryui/3.2.1/themes/smoothness/jquery-ui.css”>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="script.js"></script>
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">		
 		<script src="https://kit.fontawesome.com/508ebce8fc.js" crossorigin="anonymous"></script>
 		<title>AXIT</title>
@@ -101,9 +104,9 @@
 
 		<div class="section_about">
 			<div class="about_left">
-				<div class="tab1"> 
-					<h1>TAB 1</h1>
-					<div class="tab1_text">
+				<div id="tab1"> 
+					<h1 id="btn_tab1">TAB 1</h1>
+					<div id="tab1_text">
 						<h>Tabwith soft transitioning effect.</h>
 						<hr>
 						<p>
@@ -117,8 +120,8 @@
 						<button class="CallToAction">Call to Action</button>
 					</div>
 				</div>
-				<div class="tab2"> <h1>TAB 2</h1>
-					<div class="tab2_text">
+				<div id="tab2"> <h1 id="btn_tab2">TAB 2</h1>
+					<div id="tab2_text">
 						<h>Tab 2 Headline</h>
 						<hr>
 						<p>
@@ -131,8 +134,8 @@
 						</p>
 					</div>
 				</div>
-				<div class="tab3"> <h1>TAB 3</h1>
-					<div class="tab3_text">
+				<div id="tab3"> <h1 id="btn_tab3">TAB 3</h1>
+					<div id="tab3_text">
 						<h>Tab 3 Headline</h>
 						<hr>
 						<p>
@@ -155,28 +158,27 @@
 
 		<div class="section_about2">
 			<div class="left_about2">
-
+				<img src="images/villeciel.png">
 			</div>
+		
 			<div class="right_about">
-				<h1>Sub list section</h1>
-				<hr>
-				<p>
+				<h1 class="global_title">Sub list section</h1>
+				<hr class="global_hr">
+				<p class="global_text_comment">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 					Aenean euismod bibendum laoreet. Proin gravida dolor sit amet 
 					lacus accumsan et viverra justo commodo.
 				</p>
 				<div class="title1">
-					<img src="images/villeciel.png">
-					<h1>Title</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Aenean euismod bibendum laoreet.
-					</p>
+					<h1 class="global_title">Title</h1>
+					<p class="global_text_comment"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+
+
 				</div>
 				<div class="title2">
 					<img src="#">
-					<h1>Title</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Aenean euismod bibendum laoreet.
+					<h1 class="global_title">Title</h1>
+					<p class="global_text_comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
 					</p>
 				</div>
 			</div>
@@ -186,9 +188,9 @@
 
 		<div class="section_about3">
 			<div class="left_about3">
-				<h1>Standard Picture Section</h1>
-				<hr>
-				<p>
+				<h1 class="global_title">Standard Picture Section</h1>
+				<hr class="global_hr">
+				<p class="global_text_comment">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. 
 				Proin gravida dolor sit amet lacus accumsan et viverra justo 
 				commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus 
