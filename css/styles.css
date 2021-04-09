@@ -422,7 +422,6 @@ button.CallToAction:hover{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #101010;
   color:white;
   width:125px;
   height: 120px;
@@ -439,10 +438,12 @@ button.CallToAction:hover{
   background-color: #ff6a00;
 }
 
-#btn_tab1:active, #btn_tab2:active, #btn_tab3:active{
+.active{
   background-color: #ff6a00;
 }
-
+.notActive{
+  background-color: #101010;
+}
 #tab1_text{
   margin-top:-50px;
   margin-left:235px;
