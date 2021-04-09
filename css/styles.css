@@ -435,7 +435,7 @@ button.CallToAction:hover{
   font-family: 'Montserrat', sans-serif;
 }
 #btn_tab1:hover, #btn_tab2:hover, #btn_tab3:hover{
-  background-color: #ff6a00;
+  background-color: #333333;
 }
 
 .active{
