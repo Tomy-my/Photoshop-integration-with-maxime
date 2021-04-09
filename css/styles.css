@@ -416,8 +416,7 @@ button.Get:active{
 /* ---------------------------------------- WHY THIS IS AWESOME --------------------------------------------------------------- */
 #bottom{
 	display:flex;
-	direction:row;
-	margin-left:5%;
+  justify-content: space-around;
 }
 .cercle{
 	height: 30px;
@@ -428,7 +427,7 @@ button.Get:active{
 	display: inline-flex;
 	align-items: center; 
 	justify-content: center;
-	margin-left:49%;
+	margin-left:46%;
 	margin-top:-15px;
 	transform: scale(2);
 }
@@ -436,16 +435,19 @@ button.Get:active{
 	color:#FF8B38;
 }
 #section_about4 .global_title{
-	margin-top:20px;
+	margin-top:40px;
+  margin-bottom: 20px;
+  font-size: 25px;
 }
-@media (max-width: 900px) {
-	#bottom{
-		flex-direction:column;
-	}
-	.cercle{
-		margin-left:49%;
-	}
+
+h1.global_title2{
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(46, 46, 46);
 }
+
 
 /* -------------------------------------------- PRINCING TAB ------------------------------------------------------------------- */
 #princing {
@@ -464,6 +466,7 @@ button.Get:active{
   color: grey;
   font-size: 16px;
   margin-bottom: 100px;
+  line-height: 23px;
   font-family: 'Montserrat', sans-serif;
 }
 .global_hr {

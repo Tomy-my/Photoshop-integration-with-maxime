@@ -53,7 +53,14 @@
   }
 
 
-
+  @media (max-width: 900px) {
+    #bottom{
+      flex-direction:column;
+    }
+    .cercle{
+      margin-left:49%;
+    }
+  }
 
 
   @media (max-width: 700px) {
