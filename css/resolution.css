@@ -1,5 +1,8 @@
 /* -------------------------------------------- RESPONSIVE TESTIMONIALS TAB ------------------------------------------------------------------- */
 @media (max-width: 850px) {
+  #testimonials_tab{
+    margin-top:200px;
+  }
 	.testi_bubble_and_text{
 		margin:auto;
 		text-align:justify;
@@ -22,22 +25,37 @@
     margin-top: -50px;
   }
   .testi_avatar {
-    margin-left: -100px;
+    width:350px;
+    margin:auto;
+    padding-left: 80px;
+		text-align:justify;
   }
   #triangle{
 	  margin-left:-100px;
   }
 }
+/* -------------------------------------------- RESPONSIVE NAV BAR TAB ------------------------------------------------------------------- */
+@media (max-width: 850px) {
+  .navbar{
+    display:none;
+  }
+
+}
+
 
 /* -------------------------------------------- RESPONSIVE PRINCING TAB ------------------------------------------------------------------- */
 
 @media (max-width: 900px) {
+  #princing{
+    border-bottom: solid 500px #f5f5f5;
+  }
     #princing_columns {
-      margin-top: 75px;
+      margin-top: 450px;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
+      height:1000px;
     }
     #pricing_column1,
     #pricing_column2,
@@ -50,42 +68,53 @@
     #pricing_column2 {
       margin-top: 50px;
     }
-  }
-
-
-  @media (max-width: 900px) {
     #bottom{
+      margin-top:150px;
       flex-direction:column;
+      height: 800px;
+      margin-bottom: 150px;
     }
     .cercle{
-      margin-left:49%;
+      margin-left:47%;
     }
   }
 
 
-  @media (max-width: 700px) {
+  @media (max-width: 1200px) {
     .form {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
     }
+    .separator hr{
+      display:none;
+    }
     .form input {
       margin-bottom: 50px;
-      margin-left: 150px;
+      margin-left:25%;
       color: black;
       border: none;
       border-bottom: solid 1px grey;
-      width: 300px;
+      width: 400px;
       font-size: 24px;
     }
     textarea {
-      margin-left: 150px;
+      margin-left: 25%;
     }
   }
 
 
-  @media (max-width: 700px) {
+  @media (max-width: 800px) {
 	#footer {
 		text-indent: 5px;
 	}
+  textarea {
+    width:50%;
+  }
+  .form input {
+    width: 50%;
+  }
+  #toTop{
+    margin-left:20px;
+  }
 }
