@@ -350,7 +350,7 @@ button.Get:active{
 }
 
 .social_right a:hover{
-  color: rgb(192, 192, 192);
+  color: rgb(73, 73, 73);
 }
 
 /* ----------------------------------------------Deuxième section: About---------------------------------------------- */
@@ -1011,6 +1011,10 @@ input[type="submit"]:hover {
 
 #logos a{
     color: rgb(197, 197, 197);
+}
+
+#logos a:hover{
+  color: rgb(255, 255, 255);
 }
 
 #logos p {
