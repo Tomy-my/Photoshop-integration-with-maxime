@@ -209,12 +209,18 @@ button.download:hover{
 }
 
 .right{
+  position: relative;
     height: 450px;
     width: 450px;
     margin-top: auto;
     margin-bottom: auto;
 
     background-color: rgba(255, 255, 255, 1);
+
+    animation-name: connexion;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1.2s;
 }
 
 form.connexion{
@@ -222,6 +228,25 @@ form.connexion{
     flex-direction: column;
     justify-content: space-around;
 }
+@keyframes connexion {                         
+  0% {
+    left: 450px;
+}
+
+  40%{
+    left: -20px
+  }
+  60%{
+    left: 15px
+  }
+  80%{
+    left: 0px
+  }
+100% {
+   left: 0px;
+}
+}
+
 
 .boite_h2{
     height: 60px;
@@ -486,6 +511,11 @@ button.CallToAction:hover{
 
 .left_about2 img{
   width: 120%;
+  transition-duration: 0.7s;
+}
+
+.left_about2 img:hover{
+  scale: 1.1;
 }
 
 .right_about2{
@@ -624,6 +654,11 @@ button.CallToAction:hover{
 
 .right_about3 img{
   width: 115%;
+  transition-duration: 0.7s;
+}
+
+.right_about3 img:hover{
+  scale: 1.1;
 }
 
 .top_about{
