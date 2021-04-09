@@ -74,12 +74,66 @@ span.logo{
 .about:hover{
     color: white;
 }
+
+.pricing{
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: 'nav';
+  color: rgb(165, 165, 165);
+}
+
+.pricing:hover{
+  color: white;
+}
+
+.reviews{
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: 'nav';
+  color: rgb(165, 165, 165);
+}
+
+.reviews:hover{
+  color: white;
+}
+
+.contact{
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: 'nav';
+  color: rgb(165, 165, 165);
+}
+
+.contact:hover{
+  color: white;
+}
+
+
 /*------------------ TAB 1 2 3 ----------------------- */
 
+.section_about{
+  display: flex;
+  justify-content: space-around;
+
+  height: 750px;
+  background-color: #f5f5f5;
+}
+
+.about_left{
+  margin-top: 250px;
+}
+
+.right_about{
+  margin-top: 200px
+}
 #btn_tab1, #btn_tab2, #btn_tab3{
   background-color: #101010;
   color:white;
-  width:100px;
+  width:125px;
+  height: 120px;
   font-size:20px;
   text-align:center;
   padding-top:15px;
@@ -89,6 +143,13 @@ span.logo{
 #btn_tab1:hover, #btn_tab2:hover, #btn_tab3:hover{
   opacity:0.5;
 }
+
+h1#btn_tab1{
+  font-size: 19px;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 #tab1_text{
   margin-top:-50px;
   margin-left:125px;
@@ -110,63 +171,174 @@ span.logo{
 }
 /*------------------ Sub list section ----------------------- */
 .section_about2 {
-  display:flex;
-  flex-direction: row;
-  align-items: justify;
-  align-content: justify;
-  height: 700px;
+  display: flex;
+  justify-content: space-around;
+
+  height: 750px;
 }
+
+.right_about2 i{
+  color: #FF8B38;
+}
+
+.left_about2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left_about2 img{
+  width: 120%;
+}
+
+.right_about2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 30%;
+}
+
+.right_about2 h1{
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(46, 46, 46);
+}
+
+.right_about2 hr{
+  margin-top: 25px;
+  margin-bottom: 30px;
+  border: solid 1px #ff8b38;
+  background-color: #ff8b38;
+  width: 60px;
+  padding: auto;
+
+}
+
+.right_about2 p{
+  color: grey;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title1{
+  display: flex;
+  justify-content: flex-start;
+
+  padding-top: 45px;
+}
+
+.cercle1{
+	height: 35px;
+	width: 35px;
+	border:solid 3px #FF8B38;
+	background-color:transparent;
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center; 
+	justify-content: center;
+
+}
+
+.title1 h1{
+  font-size: 19px;
+  margin-left: 35px;
+}
+
+.title1 p{
+  margin-left: -55px;
+}
+
+
+.title2{
+  display: flex;
+  justify-content: flex-start;
+
+  padding-top: 45px;
+}
+
+.cercle2{
+	height: 35px;
+	width: 35px;
+	border:solid 3px #FF8B38;
+	background-color:transparent;
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center; 
+	justify-content: center;
+}
+
+.title2 h1{
+  font-size: 19px;
+  margin-left: 35px;
+}
+
+.title2 p{
+  margin-left: -55px;
+}
+
+/*------------------ section3 ----------------------- */
+
 .section_about3{
-  display:flex;
-  flex-direction: row;
-  align-items: justify;
-  align-content: justify;
-}
-.right_about{
-  margin-left:800px;
-  margin-top:-150px;
-  position:absolute;
-}
-.section_about{
-  height: 500px;
+  display: flex;
+  justify-content: space-around;
+
+  height: 550px;
+
+  background-color: #f5f5f5;
 }
 
-/*------------------ PRICING ----------------------- */
-.pricing{
-    font-size: 20px;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-family: 'nav';
-    color: rgb(165, 165, 165);
+.left_about3{
+  width: 30%;
+  margin-top: 125px;
+  
 }
 
-.pricing:hover{
-    color: white;
+.left_about3 h1{
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(46, 46, 46);
 }
 
-.reviews{
-    font-size: 20px;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-family: 'nav';
-    color: rgb(165, 165, 165);
+.left_about3 hr{
+  margin-top: 25px;
+  margin-bottom: 30px;
+  border: solid 1px #ff8b38;
+  background-color: #ff8b38;
+  width: 75px;
+  padding: auto;
+
 }
 
-.reviews:hover{
-    color: white;
+.left_about3 p{
+  color: grey;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.contact{
-    font-size: 20px;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-family: 'nav';
-    color: rgb(165, 165, 165);
+.right_about3{
+  margin-top: 60px;
 }
 
-.contact:hover{
-    color: white;
+.right_about3 img{
+  width: 115%;
 }
+
+
+
+
+.top_about{
+  margin-top: 80px;
+}
+
+
+
+
+
 
 /* ----------------------------------------------Première section: HOME---------------------------------------------- */
 
